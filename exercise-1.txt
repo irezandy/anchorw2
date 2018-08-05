@@ -13,12 +13,12 @@ DISPLAY "SF"
 Pseudocode:
 STORE "Year" with any value
 CALCULATE "year" divided by 4 / 100 / 400
-IF "year" divided by 4 = 0 and divided by 100 != 0
-DISPLAY "Tahun Kabisat"
-ELSE IF "year" divided by 4 = 0 and divided by 100 = 0 and divided by 400 = 0
-DISPLAY "Tahun Kabisat"
-ELSE 
-DISPLAY "Bukan Tahun Kabisat"
+  IF "year" divided by 4 = 0 and divided by 100 != 0
+  DISPLAY "Tahun Kabisat"
+     ELSE IF "year" divided by 4 = 0 and divided by 100 = 0 and divided by 400 = 0
+     DISPLAY "Tahun Kabisat"
+       ELSE 
+       DISPLAY "Bukan Tahun Kabisat"
 
 Algoritma:
 1. Definisikan Tahun dengan nilai berapapun
@@ -33,8 +33,8 @@ Algoritma:
 Psudocode:
 STORE "Jumlah baju" with value 20
 WHILE "Jumlah baju" <= 20
-ADD "Jumlah baju" by 1
-DISPLAY "Mulai mencuci"
+  ADD "Jumlah baju" by 1
+  DISPLAY "Mulai mencuci"
 
 Algoritma
 1. Simpan nilai "Jumlah baju" dengan 20
@@ -47,10 +47,10 @@ Algoritma
 Pseudocode:
 STORE "Murid" to 1
 WHILE "Murid" <= 40
-IF "Murid" = "kuku panjang"
-DISPLAY "Dasar bandel kamu"
-ELSE IF "Murid" = "kuku tidak panjang"
-DISPLAY "Wah anak pintar"
+  IF "Murid" = "kuku panjang"
+  DISPLAY "Dasar bandel kamu"
+    ELSE IF "Murid" = "kuku tidak panjang"
+    DISPLAY "Wah anak pintar"
 
 Algoritma:
 1. Mulai periksa kuku dari anak pertama
