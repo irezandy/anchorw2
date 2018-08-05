@@ -1,0 +1,59 @@
+1. NEWTON SECOND LAW
+
+Pseudocode:
+
+STORE "kg" with value 600
+STORE "m/s2" with value 2
+CALCULATE "width" times "height"
+SET "SF" value with calculation result
+DISPLAY "SF"
+
+2. TAHUN KABISAT
+
+Pseudocode:
+STORE "Year" with any value
+CALCULATE "year" divided by 4 / 100 / 400
+IF "year" divided by 4 = 0 and divided by 100 != 0
+DISPLAY "Tahun Kabisat"
+ELSE IF "year" divided by 4 = 0 and divided by 100 = 0 and divided by 400 = 0
+DISPLAY "Tahun Kabisat"
+ELSE 
+DISPLAY "Bukan Tahun Kabisat"
+
+Algoritma:
+1. Definisikan Tahun dengan nilai berapapun
+2. Bagi nilai Tahun dengan nilai 4 / 100 / 400
+3. Jika nilai Tahun habis dibagi dengan 4 dan tidak habis dibagi 100 maka tampilkan "Tahun Kabisat",
+   jika nilai Tahun habis dibagi dengan 4, 100, dan 400 maka tampilkan "Tahun Kabisat"
+4. Jika hasil perhitungan langkah ketiga tidak memenuhi syarat, tampilkan "Bukan Tahun Kabisat"
+5. Selesai
+
+3. LAUNDRY DAY
+
+Psudocode:
+STORE "Jumlah baju" with value 20
+WHILE "Jumlah baju" <= 20
+ADD "Jumlah baju" by 1
+DISPLAY "Mulai mencuci"
+
+Algoritma
+1. Simpan nilai "Jumlah baju" dengan 20
+2. Masukkan baju sampai berjumlah 20
+3. Jika baju yang dimasukan masih kurang dari 20, ulangi langkah kedua sampai jumlah baju yang dimasukkan berjumlah 20
+4. Mulai mencuci
+
+4. PERIKSA KUKU
+
+Pseudocode:
+STORE "Murid" to 1
+WHILE "Murid" <= 40
+IF "Murid" = "kuku panjang"
+DISPLAY "Dasar bandel kamu"
+ELSE IF "Murid" = "kuku tidak panjang"
+DISPLAY "Wah anak pintar"
+
+Algoritma:
+1. Mulai periksa kuku dari anak pertama
+2. Lakukan pemeriksaan kuku anak berjumlah 40 orang
+3. Jika kuku anak panjang maka marahi anaknya, jika kuku anak tidak panjang puji anaknya
+4. Selesai
