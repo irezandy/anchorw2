@@ -1,14 +1,22 @@
-var x = 1;
-var o = 0;
 function xo(str) {
-  if (length.x = length.o){
-    return true;
-  } else if (length.x < length.o){
-    return false;
-  } else (length.x > length.o){
-    return false;
+  var x = 0;
+  var o = 0;
+  for(var i = 0; i <= str.length; i++) {
+    if(str[i] === 'x') {
+      x = x+1;
+    }
+    else if(str[i] === 'o') {
+      o = o+1;
+    }
   }
-}
+ if(x == o) {
+   return true;
+ }
+ else {
+   return false;
+ }
+ }
+ 
 // TEST CASES
 console.log(xo('xoxoxo')); // true
 console.log(xo('oxooxo')); // false
