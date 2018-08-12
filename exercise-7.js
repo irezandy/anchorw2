@@ -1,28 +1,46 @@
-//Nomor 1. Menyusun Barisan Bintang
-var starts = '';
-for (let i = 0; i < 5; i++){
-  starts = '*'
-  console.log(starts);
+// 1. Menyusun barisan bintang
+
+var rows1;
+var counterRows1;
+
+rows1 = 5;
+counterRows1 = 0;
+
+while (counterRows1<rows1) {
+  console.log('*');
+  counterRows1++;
 }
 
-//Nomor 2. Menyusun Barisan Bintang Dengan Nested Looping
-var limit = 5
-var starts = '';
+// 2. Menyusun barisan bintang dengan nested LOOPING
 
-for (let i = 0; i < limit; i++) {
-  for (let j = 0; j < limit; j++) {
-  starts +='*';
-}
-  console.log(starts);
-  starts = '';
+var rows2 = 5;
+
+var i=0;
+while (i<rows2) {
+  var asteriks = '*';
+  var j = 1;
+  while (j<rows2) {
+    asteriks = asteriks + '*';
+    j++;
+  }
+  console.log(asteriks);
+  i++;
 }
 
-//Nomor 3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
-var starts = '';
-for(var i = 1; i < 6; i++){
-  for(var j = 0; j < i; j++){
-  starts = starts + '*';
+// 3. Menyusun  Barisan Tangga Bintang Dengan Nested Looping
+
+var rows3 = 5;
+
+var initial = 1;
+var i = 0;
+
+while (i<rows3) {
+  var pyramid = '*';
+  var j=0;
+  while (j<i) {
+    pyramid = pyramid +'*';
+    j++;
+  }
+  console.log(pyramid);
+  i++;
 }
-  console.log(starts)
-  starts = '';
-}  
