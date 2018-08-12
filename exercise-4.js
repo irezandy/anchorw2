@@ -1,47 +1,57 @@
 var tanggal = '21'; // assign nilai variabel tanggal disini!
 var bulan = '5'; // assign nilai variabel bulan disini! (dengan huruf awal kapital)
 var tahun = '2022'; // assign nilai variabel tahun disini!
-
-console.log(tanggal)
+var bulanResult;
 
 switch (bulan) {
-  case '1':
-    console.log('Januari');
+  case 1: { 
+    bulanResult = 'Januari'; 
     break;
-  case '2':
-    console.log('Februari');
+  }
+  case 2: { 
+    bulanResult = 'Februari'; 
     break;
-  case '3':
-    console.log('Maret');
+  }
+  case 3: { 
+    bulanResult = 'Maret'; 
     break;
-  case '4':
-    console.log('April');
+  }
+  case 4: { 
+    bulanResult = 'April'; 
     break;
-  case '5':
-    console.log('Mei');
+  }
+  case 5: { 
+    bulanResult = 'Mei'; 
     break;
-  case '6':
-    console.log('Juni');
+  }
+  case 6: { 
+    bulanResult = 'Juni'; 
     break;
-  case '7':
-    console.log('Juli');
+  }
+  case 7: { 
+    bulanResult = 'Juli'; 
     break;
-  case '8':
-    console.log('Agustus');
+  }
+  case 8: { 
+    bulanResult = 'Agustus'; 
     break;
-  case '9':
-    console.log('September');
+  }
+  case 9: { 
+    bulanResult = 'September'; 
     break;
-  case '10':
-    console.log('Oktober');
+  }
+  case 10: { 
+    bulanResult = 'Oktober'; 
     break;
-  case '11':
-    console.log('November');
+  }
+  case 11: { 
+    bulanResult = 'November'; 
     break;
-  case '12':
-    console.log('Desember');
+  }
+  case 12: { 
+    bulanResult = 'Desember'; 
     break;
-  default:
-    console.log(null)
+  }
 }
-console.log(tahun)
+
+console.log(tanggal+' '+bulanResult+' '+tahun);
